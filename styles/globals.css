@@ -1,0 +1,38 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  color: transparent;
+}
+
+.mySwiper .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: black;
+}
+
+.mySwiper .swiper-button-prev::after {
+  background-image: url("/assets/angle-left-solid.svg");
+}
+.mySwiper .swiper-button-next::after {
+  background-image: url("/assets/angle-right-solid.svg");
+}
+
+.bounce {
+  animation: bounce-animation 1s infinite;
+}
+
+@keyframes bounce-animation {
+  0%,
+  100% {
+    transform: translateY(-5%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+
+  95% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
