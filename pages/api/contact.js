@@ -21,18 +21,19 @@ export default function handler(req, res) {
     },
   };
 
-  // SendGrid
-  (async () => {
+  // Répondre immédiatement au client
+  res.status(200).json({
+    message: "Email will be sent!",
+  });
+
+  // Envoie l'e-mail après une courte pause
+  setTimeout(async () => {
     try {
       await sgMail.send(sendGridMail);
-      res.status(200).json({
-        message: "Email send !",
-      });
+      console.log("Email sent successfully");
     } catch {
-      res.status(500).json({
-        message: "Error with sendgrid !",
-      });
+      console.error("Error with sendgrid!");
       return;
     }
-  })();
+  }, 1000); // Pause d'une seconde avant d'envoyer l'e-mail
 }
