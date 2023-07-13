@@ -17,7 +17,7 @@ export default function handler(req, res) {
   // Transformer les retours à la ligne pour le HTML
   const content = state.replace(/(\r\n|\n|\r)/gm, "<br />");
 
-  sgMail.setApiKey(process.env.NEXT_PUBLIC_KEY_SENDGRID);
+  sgMail.setApiKey("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");
 
   // Création du message
   const sendGridMail = {
