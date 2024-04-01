@@ -6,10 +6,10 @@ function Delivery() {
     return (
         <>
             <Head>
-                <title>Livraison - Std Automobile</title>
+                <title>Service de Livraison Rapide et Sécurisé - Voreppe</title>
                 <meta
                     name="description"
-                    content="page livraison du site Std Automobile"
+                    content="Profitez d'un service de livraison fiable et rapide chez vous à Voreppe. Découvrez nos options flexibles pour recevoir vos achats en toute sécurité."
                 />
             </Head>
 
@@ -33,25 +33,11 @@ function Delivery() {
                 >
                     <Stack
                         sx={{
-                            // background:
-                            //   "-webkit-linear-gradient(45deg, #AAB8C2 5%, #000000 95%)",
-                            // WebkitBackgroundClip: "text",
-                            // WebkitTextFillColor: "transparent",
                             fontSize: { sm: "22px", xs: "18px" },
-                        }}
-                    >
+                        }}>
                         COMMENT ÇA FONCTIONNE ?
                     </Stack>
-                    <Stack
-                        sx={
-                            {
-                                // background:
-                                //   "-webkit-linear-gradient(45deg, #AAB8C2 5%, #000000 95%)",
-                                // WebkitBackgroundClip: "text",
-                                // WebkitTextFillColor: "transparent",
-                            }
-                        }
-                    >
+                    <Stack>
                         ON VOUS EXPLIQUE TOUT !
                     </Stack>
                 </Stack>

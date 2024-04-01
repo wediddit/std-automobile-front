@@ -9,27 +9,26 @@ import Reviews from "@/components/lp/Reviews";
 import Schedules from "@/components/lp/Schedules";
 
 export default function Home() {
-  return (
-    <>
-      <Head>
-        <title>Accueil - Std automobile</title>
-        <meta
-          name="description"
-          content="page d'accueil du site Std Automobile"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    return (
+        <>
+            <Head>
+                <title>STD Automobile Voreppe : Vente de Voitures d'Occasion de Qualité</title>
+                <meta
+                    name="description"
+                    content="Découvrez chez STD Automobile à Voreppe un large choix de véhicules d'occasion révisés et garantis. Service impeccable et conseils personnalisés."
+                />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+            </Head>
 
-      <Stack gap={{ sm: 10, xs: 5 }}>
-        <TopLp />
-        <BestExperiences />
-        <Quality />
-        <Sales />
-        <ChooseStd />
-        <Reviews />
-        <Schedules />
-      </Stack>
-    </>
-  );
+            <Stack gap={{ sm: 10, xs: 5 }}>
+                <TopLp />
+                <BestExperiences />
+                <Quality />
+                <Sales />
+                <ChooseStd />
+                <Reviews />
+                <Schedules />
+            </Stack>
+        </>
+    );
 }

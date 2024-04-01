@@ -1,4 +1,4 @@
-import { EmailRounded } from "@mui/icons-material";
+import { ArrowDownwardRounded, EmailRounded } from "@mui/icons-material";
 import {
   Alert,
   Box,
@@ -51,10 +51,10 @@ function Recovery() {
   return (
     <>
       <Head>
-        <title>Reprise - Std Automobile</title>
+        <title>Service de Reprise de Voiture à Voreppe - STD Automobile</title>
         <meta
           name="description"
-          content="page reprise du site Std Automobile"
+          content="Simplifiez la vente de votre voiture avec le service de reprise STD Automobile à Voreppe. Estimation rapide, paiement sécurisé et service personnalisé."
         />
       </Head>
 
@@ -69,7 +69,7 @@ function Recovery() {
         <Box sx={{ textAlign: "center" }}>
           Pour l'estimation de votre véhicule,
           <br />
-          vous aurez besoin de :
+          vous aurez besoin de <br/> <ArrowDownwardRounded />
         </Box>
 
         <Stack direction={{ sm: "row", xs: "column" }} gap={{ sm: 4, xs: 3 }}>
