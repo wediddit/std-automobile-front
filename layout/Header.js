@@ -124,93 +124,15 @@ function Header() {
                         Accueil
                     </ButtonHeader>
                 </Link>
-                {/* 
-                <Stack display={{ sm: "none", xs: "flex" }}>
-                    <ButtonHeader
-                        endIcon={<ArrowDropDown />}
-                        onClick={() => {
-                            handleButtonClickCollapse();
-                        }}
-                        sx={{
-                            color: `black`,
-                            backgroundColor: `white`,
-                            "&:hover": {
-                                backgroundColor: "grey.light",
-                            },
-                            width: 1,
-                            display: "flex",
-                            justifyContent: "flex-start",
-                        }}
-                    >
-                        Nos annonces
-                    </ButtonHeader>
-
-                    <Box sx={{ display: `${openCollapse ? "flex" : "none"}` }}>
-                        <Collapse
-                            in={openCollapse}
-                            sx={{
-                                py: 1,
-                                backgroundColor: "grey.light",
-                                borderRadius: "10px",
-                                width: 1,
-                                pl: 1,
-                            }}
-                        >
-                            <Link
-                                href={
-                                    "https://www.leboncoin.fr/boutique/100572/std_automobile.htm"
-                                }
-                                target="_blank"
-                                style={{ textDecoration: "none" }}
-                            >
-                                <Button
-                                    sx={{
-                                        color: `black`,
-                                        fontSize: "15px",
-                                        width: 1,
-                                        display: "flex",
-                                        justifyContent: "flex-start",
-                                    }}
-                                >
-                                    Le bon coin
-                                </Button>
-                            </Link>
-
-                            <Divider />
-
-                            <Link
-                                href={"https://occasion.largus.fr/auto/std-automobile_154791"}
-                                target="_blank"
-                                style={{ textDecoration: "none" }}
-                            >
-                                <Button
-                                    sx={{
-                                        color: `black`,
-                                        fontSize: "15px",
-                                        width: 1,
-                                        display: "flex",
-                                        justifyContent: "flex-start",
-                                    }}
-                                >
-                                    L'argus
-                                </Button>
-                            </Link>
-                        </Collapse>
-                    </Box>
-                </Stack> */}
 
                 <Link href={"https://pros.lacentrale.fr/C049855/cat-auto"} target="_blank" style={{ textDecoration: "none" }}>
                     <ButtonHeader
                         onClick={toggleDrawer(anchor, false)}
                         onKeyDown={toggleDrawer(anchor, false)}
                         sx={{
-                            color: `${router.pathname == "/delivery" ? "white" : "black"}`,
-                            backgroundColor: `${router.pathname == "/delivery" ? "black" : "white"
-                                }`,
-                            "&:hover": {
-                                backgroundColor:
-                                    router.pathname == "/delivery" ? "black" : "grey.light",
-                            },
+                            color: `black`,
+                            backgroundColor: `white`,
+                            "&:hover": "grey.light",
                         }}
                     >
                         Nos annonces
