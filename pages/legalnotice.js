@@ -139,7 +139,7 @@ function Legalnotice() {
         </Box>
 
         <Typography variant="h3">
-          5. Propriété intellectuelle et contrefaçons.
+          5. Propriété intellectuelle et contrefaçons. 
         </Typography>
         <Box>
           Stdautomobile est propriétaire des droits de propriété intellectuelle
