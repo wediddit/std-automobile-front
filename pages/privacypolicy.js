@@ -33,7 +33,7 @@ function Privacypolicy() {
             Propriétaire :
           </Box>
           <Box>
-            Stdautomobile – SIRET 84998160000026 – 430 Rte de Palluel, 38340
+            Std Automobile – SIRET 84998160000026 – 430 Rte de Palluel, 38340
             Voreppe
           </Box>
         </Stack>
