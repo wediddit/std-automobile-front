@@ -19,7 +19,7 @@ function Privacypolicy() {
         <Box>
           En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la
           confiance dans l’économie numérique, il est précisé aux utilisateurs
-          du site <b>www.stdautomobile.fr</b> l’identité des différents
+          du site <b>www.std-automobile.fr</b> l’identité des différents
           intervenants dans le cadre de sa réalisation et de son suivi :
         </Box>
 
@@ -59,25 +59,13 @@ function Privacypolicy() {
           >
             Responsable publication :
           </Box>
-          <Box>Stdautomobile – Std.automobile@gmail.com</Box>
+          <Box>Std Automobile – contact@stdautomobile.com</Box>
         </Stack>
 
         <Box>
           Le responsable publication est une personne physique ou une personne
           morale.
         </Box>
-
-        <Stack direction={"column"}>
-          <Box
-            sx={{
-              fontWeight: 700,
-              fontSize: { sm: "20px", xs: "18px" },
-            }}
-          >
-            Webmaster :
-          </Box>
-          <Box>wediddit – wediddit.contact@gmail.com</Box>
-        </Stack>
 
         <Stack direction={"column"}>
           <Box

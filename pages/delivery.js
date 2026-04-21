@@ -80,7 +80,7 @@ function Delivery() {
                             suivants votre achat.
                             <br />
                             <br />
-                            Le prix de la livraison est fixe (490€) peu importe le lieu de
+                            Le prix de la livraison est fixe (590€) peu importe le lieu de
                             livraison en France métropolitaine.
                         </Box>
                     </Stack>

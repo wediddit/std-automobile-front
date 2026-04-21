@@ -21,7 +21,7 @@ export default function handler(req, res) {
 
   // Création du message
   const sendGridMail = {
-    to: "std.automobile@gmail.com",
+    to: "contact@stdautomobile.com",
     from: "elfakihkarim@gmail.com",
     templateId: "d-ba48ce8ebd014cd3b25b29670905b31d",
     dynamic_template_data: {

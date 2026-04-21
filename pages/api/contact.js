@@ -10,7 +10,7 @@ export default function handler(req, res) {
 
   // Création du message
   const sendGridMail = {
-    to: "std.automobile@gmail.com",
+    to: "contact@stdautomobile.com",
     from: "wediddit.contact@gmail.com",
     templateId: "d-3de4eebe210140cbb6252aa19e2dafdf",
     dynamic_template_data: {

@@ -19,7 +19,7 @@ function Legalnotice() {
         <Box>
           En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la
           confiance dans l’économie numérique, il est précisé aux utilisateurs
-          du site <b>www.stdautomobile.fr</b> l’identité des différents
+          du site <b>www.std-automobile.fr</b> l’identité des différents
           intervenants dans le cadre de sa réalisation et de son suivi :
         </Box>
 
@@ -59,25 +59,13 @@ function Legalnotice() {
           >
             Responsable publication :
           </Box>
-          <Box>Stdautomobile – Std.automobile@gmail.com</Box>
+          <Box>Std Automobile – contact@stdautomobile.com</Box>
         </Stack>
 
         <Box>
           Le responsable publication est une personne physique ou une personne
           morale.
         </Box>
-
-        <Stack direction={"column"}>
-          <Box
-            sx={{
-              fontWeight: 700,
-              fontSize: { sm: "20px", xs: "18px" },
-            }}
-          >
-            Webmaster :
-          </Box>
-          <Box>wediddit – wediddit.contact@gmail.com</Box>
-        </Stack>
 
         <Stack direction={"column"}>
           <Box
@@ -96,11 +84,11 @@ function Legalnotice() {
           proposés.
         </Typography>
         <Box>
-          L’utilisation du site <b>www.stdautomobile.fr</b> implique
+          L’utilisation du site <b>www.std-automobile.fr</b> implique
           l’acceptation pleine et entière des conditions générales d’utilisation
           ci-après décrites. Ces conditions d’utilisation sont susceptibles
           d’être modifiées ou complétées à tout moment, les utilisateurs du site{" "}
-          <b>www.stdautomobile.fr</b>
+          <b>www.std-automobile.fr</b>
           sont donc invités à les consulter de manière régulière.
           <br />
           <br />
@@ -111,7 +99,7 @@ function Legalnotice() {
           <br />
           <br />
           Le site
-          <b>www.stdautomobile.fr</b> est mis à jour régulièrement par{" "}
+          <b>www.std-automobile.fr</b> est mis à jour régulièrement par{" "}
           <b>wediddit</b>. De la même façon, les mentions légales peuvent être
           modifiées à tout moment : elles s’imposent néanmoins à l’utilisateur
           qui est invité à s’y référer le plus souvent possible afin d’en
@@ -122,7 +110,7 @@ function Legalnotice() {
           3. Description des services fournis.
         </Typography>
         <Box>
-          Le site <b>www.stdautomobile.fr</b> a pour objet de fournir une
+          Le site <b>www.std-automobile.fr</b> a pour objet de fournir une
           information concernant l’ensemble des activités de la société.
           <br />
           <br />
@@ -133,9 +121,9 @@ function Legalnotice() {
           <br />
           <br />
           Tous les informations indiquées sur le site{" "}
-          <b>www.stdautomobile.fr</b> sont données à titre indicatif, et sont
+          <b>www.std-automobile.fr</b> sont données à titre indicatif, et sont
           susceptibles d’évoluer. Par ailleurs, les renseignements figurant sur
-          le site <b>www.stdautomobile.fr</b> ne sont pas exhaustifs. Ils sont
+          le site <b>www.std-automobile.fr</b> ne sont pas exhaustifs. Ils sont
           donnés sous réserve de modifications ayant été apportées depuis leur
           mise en ligne.
         </Box>
@@ -176,14 +164,14 @@ function Legalnotice() {
         <Box>
           Stdautomobile ne pourra être tenue responsable des dommages directs et
           indirects causés au matériel de l’utilisateur, lors de l’accès au site{" "}
-          <b>www.stdautomobile.fr</b> , et résultant soit de l’utilisation d’un
+          <b>www.std-automobile.fr</b> , et résultant soit de l’utilisation d’un
           matériel ne répondant pas aux spécifications indiquées au point 4,
           soit de l’apparition d’un bug ou d’une incompatibilité.
           <br />
           <br /> Stdautomobile ne pourra également être tenue responsable des
           dommages indirects (tels par exemple qu’une perte de marché ou perte
           d’une chance) consécutifs à l’utilisation du site{" "}
-          <b>www.stdautomobile.fr</b>.
+          <b>www.std-automobile.fr</b>.
         </Box>
 
         <Typography variant="h3">
@@ -196,18 +184,18 @@ function Legalnotice() {
           octobre 1995
           <br />
           <br /> A l’occasion de l’utilisation du site{" "}
-          <b>www.stdautomobile.fr</b> , peuvent êtres recueillies : l’URL des
+          <b>www.std-automobile.fr</b> , peuvent êtres recueillies : l’URL des
           liens par l’intermédiaire desquels l’utilisateur a accédé au site{" "}
-          <b>www.stdautomobile.fr</b> , le fournisseur d’accès de l’utilisateur,
+          <b>www.std-automobile.fr</b> , le fournisseur d’accès de l’utilisateur,
           l’adresse de protocole Internet (IP) de l’utilisateur.
           <br />
           <br />
           En tout état de cause Stdautomobile ne collecte des informations
           personnelles relatives à l’utilisateur que pour le besoin de certains
-          services proposés par le site <b>www.stdautomobile.fr</b> .
+          services proposés par le site <b>www.std-automobile.fr</b> .
           L’utilisateur fournit ces informations en toute connaissance de cause,
           notamment lorsqu’il procède par lui-même à leur saisie. Il est alors
-          précisé à l’utilisateur du site <b>www.stdautomobile.fr</b>{" "}
+          précisé à l’utilisateur du site <b>www.std-automobile.fr</b>{" "}
           l’obligation ou non de fournir ces informations.
           <br />
           <br /> Conformément aux dispositions des articles 38 et suivants de la
@@ -219,13 +207,13 @@ function Legalnotice() {
           l’adresse à laquelle la réponse doit être envoyée.
           <br />
           <br /> Aucune information personnelle de l’utilisateur du site{" "}
-          <b>www.stdautomobile.fr</b>
+          <b>www.std-automobile.fr</b>
           n’est publiée à l’insu de l’utilisateur, échangée, transférée, cédée
           ou vendue sur un support quelconque à des tiers. Seule l’hypothèse du
           rachat de Stdautomobile et de ses droits permettrait la transmission
           des dites informations à l’éventuel acquéreur qui serait à son tour
           tenu de la même obligation de conservation et de modification des
-          données vis à vis de l’utilisateur du site <b>www.stdautomobile.fr</b>
+          données vis à vis de l’utilisateur du site <b>www.std-automobile.fr</b>
           .
           <br />
           <br /> Le site n’est pas déclaré à la CNIL car il ne recueille pas
@@ -240,7 +228,7 @@ function Legalnotice() {
         </Typography>
         <Box>
           Tout litige en relation avec l’utilisation du site{" "}
-          <b>www.stdautomobile.fr</b>
+          <b>www.std-automobile.fr</b>
           est soumis au droit français. Il est fait attribution exclusive de
           juridiction aux tribunaux compétents de Paris.
         </Box>
