@@ -45,18 +45,6 @@ function Privacypolicy() {
               fontSize: { sm: "20px", xs: "18px" },
             }}
           >
-            Créateur :
-          </Box>
-          <Box>wediddit</Box>
-        </Stack>
-
-        <Stack direction={"column"}>
-          <Box
-            sx={{
-              fontWeight: 700,
-              fontSize: { sm: "20px", xs: "18px" },
-            }}
-          >
             Responsable publication :
           </Box>
           <Box>Std Automobile – contact@stdautomobile.com</Box>

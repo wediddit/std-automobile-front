@@ -45,18 +45,6 @@ function Legalnotice() {
               fontSize: { sm: "20px", xs: "18px" },
             }}
           >
-            Créateur :
-          </Box>
-          <Box>wediddit</Box>
-        </Stack>
-
-        <Stack direction={"column"}>
-          <Box
-            sx={{
-              fontWeight: 700,
-              fontSize: { sm: "20px", xs: "18px" },
-            }}
-          >
             Responsable publication :
           </Box>
           <Box>Std Automobile – contact@stdautomobile.com</Box>
@@ -98,9 +86,7 @@ function Legalnotice() {
           préalablement aux utilisateurs les dates et heures de l’intervention.
           <br />
           <br />
-          Le site
-          <b>www.std-automobile.fr</b> est mis à jour régulièrement par{" "}
-          <b>wediddit</b>. De la même façon, les mentions légales peuvent être
+          De la même façon, les mentions légales peuvent être
           modifiées à tout moment : elles s’imposent néanmoins à l’utilisateur
           qui est invité à s’y référer le plus souvent possible afin d’en
           prendre connaissance.
